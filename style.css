@@ -1,0 +1,49 @@
+body {
+  background-color: #1B4750;
+  color: #E2B10B;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  position: absolute;
+  right: 10px;
+  top: 20px;
+   font-size: 20px;
+  font-weight: bolder;
+  margin-right: 10px;
+  border-top: solid 2px white;
+  border-bottom: solid 2px white;
+  padding: 5px;
+}
+
+input {
+  border: 1px white solid;
+  border-radius: 1px;
+  margin: 5px;
+}
+
+button {
+  border: 1px white solid;
+  border-radius: 1px;`
+  margin: 5px;
+}
+
+a:hover {
+  text-decoration: none;
+  color: white;
+  font-size: 22px;
+  transition: 1s;
+}
+
+
+li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 0px 20px;
+  border: 1px white solid
+}
+
+.fa-compact-disc {
+  font-size: 40px;
+}
