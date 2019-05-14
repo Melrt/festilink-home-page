@@ -1,20 +1,30 @@
 body {
-  background-color: #1B4750;
   color: #E2B10B;
 }
 
-a {
+.navbar {
+  background-color: #1B4750;
+}
+
+.banner {
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0;
+}
+
+.connexion-bar {
+  text-decoration: none;
+  font-size: 20px;
+  margin-left: 10px;
+  color: white;
+  padding: 3px;
+}
+
+.connexion-bar:hover {
   text-decoration: none;
   color: white;
-  position: absolute;
-  right: 10px;
-  top: 20px;
-   font-size: 20px;
-  font-weight: bolder;
-  margin-right: 10px;
-  border-top: solid 2px white;
-  border-bottom: solid 2px white;
-  padding: 5px;
+  font-size: 22px;
+  transition: 1s;
 }
 
 input {
@@ -24,16 +34,8 @@ input {
 }
 
 button {
-  border: 1px white solid;
-  border-radius: 1px;`
-  margin: 5px;
-}
-
-a:hover {
-  text-decoration: none;
-  color: white;
-  font-size: 22px;
-  transition: 1s;
+  border-radius: 0px !important;
+  border: 1px #DFA801 solid;;
 }
 
 
@@ -41,9 +43,35 @@ li {
   list-style-type: none;
   display: inline-block;
   padding: 0px 20px;
-  border: 1px white solid
+  border: 2px #1B4750 solid;
 }
 
 .fa-compact-disc {
   font-size: 40px;
+}
+
+.navbar {
+  padding: 0px 8px !important;
+}
+
+.nav-options {
+  text-align: right;
+  margin-top: 15px;
+}
+
+.nav-options-footer {
+  margin-top: 15px;
+}
+
+.nav-link {
+  color: #E2B10B;
+}
+
+.nav-link:hover {
+  color: #1B4750;
+}
+
+.form-control {
+  border-radius: 0px !important;
+  border: none !important;
 }

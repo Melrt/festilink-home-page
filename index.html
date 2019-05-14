@@ -8,27 +8,51 @@
     <title>Festilink</title>
   </head>
   <body>
-    <div class="container">
-      <i class="fas fa-compact-disc"></i>
-      <input type="text">
-      <button><i class="fas fa-search"></i></button>
-      <div class="connexion-bar">
-        <a href="#">Connexion / Inscription</a>
+    <div class="wrapper">
+      <nav class="navbar">
+        <a class="navbar-brand"><img src="images/FestiLink.png" alt="" width="200"></i></a>
+        <form class="form-inline">
+          <input class="form-control mr-sm-2" type="search" placeholder="Rechercher" aria-label="Search">
+          <button class="btn btn-outline-warning my-2 my-sm-0" type="submit"><i class="fas fa-search"></i></button>
+          <a href="#" class="connexion-bar">Connexion / Inscription</a>
+        </form>
+      </nav>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <ul class="nav-options justify-content-end">
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Espace festival</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Espace artiste</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Rejoignez nous</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Qui somme nous?</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
+              </li>
+            </ul>
+            <div class="banner" style="background-image: url(images/festilink-banner.jpg); height: 500px">
+            </div>
+            <ul class="nav-options-footer justify-content-start">
+              <li class="nav-item">
+                <a class="nav-link active" href="#">C.G.V</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">F.A.Q</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
-      <div>
-      <ul>
-        <li>Espace festival</li>
-        <li>Espace artiste</li>
-        <li>Rejoignez nous</li>
-        <li>Qui somme nous?</li>
-        <li>Blog</li>
-      </ul>
-      <img src="images/festilink-banner.jpg" alt="" width="700">
-      <ul>
-        <li>C.G.V</li>
-        <li>F.A.Q</li>
-        <li>Contact</li>
-      </ul>
     </div>
   </body>
 </html>
