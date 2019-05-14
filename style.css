@@ -75,3 +75,16 @@ li {
   border-radius: 0px !important;
   border: none !important;
 }
+
+.carousel-inner {
+  margin-top: 15px;
+}
+
+.slider-images {
+  max-height: 350px;
+  max-width: 525px;
+}
+
+.mark {
+  color: black;
+}
