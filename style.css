@@ -22,9 +22,7 @@ body {
 
 .connexion-bar:hover {
   text-decoration: none;
-  color: white;
-  font-size: 22px;
-  transition: 1s;
+  color: #ffc104;
 }
 
 input {
@@ -87,4 +85,8 @@ li {
 
 .mark {
   color: black;
+}
+
+.carousel {
+  max-width: 525px;
 }
